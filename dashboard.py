@@ -55,7 +55,7 @@ for sentiment in ["Positive", "Negative", "Neutral"]:
     if filtered.empty:
         st.info("No tweets found.")
     else:
-        for _, row in filtered.head(3).iterrows():
+        for _, row in filtered.iterrows():
             tweet = row["tweet"]
             if len(tweet) > 250:
                 tweet = tweet[:250] + "..."
