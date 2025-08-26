@@ -1,0 +1,4 @@
+username,date_time,tweet,sentiment,compound_score
+@user1,2025-07-01,Love Adidas shoes!,Positive,0.8
+@user2,2025-07-02,Adidas quality has dropped,Negative,-0.6
+@user3,2025-07-03,"Adidas is okay, nothing special",Neutral,0.0
